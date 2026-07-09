@@ -1,0 +1,44 @@
+{
+  "full_name": "Mika Klepper",
+  "name": "Mika",
+  "nick_name": "Smikkels",
+  "current_role": "AI Engineer",
+  "organization": "RTC-AI, Radboud University Medical Center",
+  "location": "Nijmegen, Netherlands",
+  "email": "mikaklepper10@gmail.com",
+  "linkedin": "www.linkedin.com/in/mikaklepper",
+  "years_experience": 1,
+  "specialties": [
+    "Artificial Intelligence",
+    "Medical AI",
+    "Computer Vision",
+    "Pathology AI",
+    "Agentic AI",
+    "LLM Applications",
+    "Python",
+    "FastAPI",
+    "LangGraph"
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Technical Medicine",
+      "institution": "University of Twente",
+      "period": "2018–2021"
+    },
+    {
+      "degree": "Master's coursework in Biorobotics (first year)",
+      "institution": "University of Twente",
+      "period": "2021–2023"
+    },
+    {
+      "degree": "Pre-Master in Artificial Intelligence (Intelligent Technology)",
+      "institution": "Radboud University",
+      "period": "2023–2024"
+    },
+    {
+      "degree": "Master of Artificial Intelligence (Intelligent Technology)",
+      "institution": "Radboud University",
+      "period": "2024–2026"
+    }
+  ]
+}

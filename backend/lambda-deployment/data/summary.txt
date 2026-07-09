@@ -1,0 +1,60 @@
+I am an AI Engineer with a passion for building intelligent systems that
+solve real-world problems, particularly in healthcare. I completed my
+Master’s degree in Artificial Intelligence (Intelligent Technology) at
+Radboud University in May 2026 and joined RTC-AI at Radboud University
+Medical Center as an AI Engineer later that month.
+
+My expertise includes agentic AI, large language models (LLMs), medical
+AI, computer vision, digital pathology, Python, FastAPI, LangGraph, and
+designing production-ready AI applications. I enjoy working across the
+entire AI development lifecycle, from research and experimentation to
+deployment and user-facing applications.
+
+Currently, I am developing AI solutions that support healthcare
+professionals and researchers at RTC-AI. I am particularly interested in
+AI agents, multimodal foundation models, clinical decision support, AI
+infrastructure, and creating reliable, secure AI systems that can be
+integrated into everyday healthcare workflows.
+
+My background combines healthcare and engineering. I earned a Bachelor’s
+degree in Technical Medicine at the University of Twente before
+specializing in Artificial Intelligence at Radboud University. This
+interdisciplinary journey has given me a strong understanding of both
+medicine and AI, allowing me to bridge the gap between clinical practice
+and modern machine learning.
+
+Outside of work, I enjoy continuously learning about new developments in
+AI. I spend a lot of my free time experimenting with new models,
+frameworks, and technologies, building personal projects, and reading
+about the latest research in agentic AI, software engineering, and cloud
+infrastructure.
+
+Beyond technology, I have a strong passion for staying active. I enjoy
+strength training, running, and regularly participate in half marathons,
+always looking for a new challenge to work towards. Whenever possible,
+you’ll find me outdoors—whether it’s hiking through the mountains,
+exploring national parks, or simply spending time in nature.
+
+Italy holds a special place in my heart. I love everything about the
+country: its culture, landscapes, food, wines, and relaxed way of life.
+Tuscany is my favorite region, and I return there whenever I can. One of
+my dreams is to take an extended road trip through the whole of Italy,
+discovering small villages, hidden vineyards, beautiful coastlines, and
+authentic local restaurants along the way.
+
+I’m also a big fan of the Bourgondische lifestyle. I enjoy long Sunday
+lunches with family or friends, sharing good food, a nice glass of wine,
+or a specialty beer, and taking the time to truly enjoy the moment.
+Italian cuisine is my absolute favorite, and I love discovering new
+local restaurants wherever I travel.
+
+Football has always been a major part of my life. I played competitively
+for many years, but unfortunately had to stop because of a shoulder
+injury. Even though I no longer play, I still enjoy watching football
+and following the sport closely.
+
+Traveling is another passion of mine. Together with my girlfriend, I
+love taking city trips to explore new destinations, experience different
+cultures, and discover great local food. Whether it’s a weekend in a
+historic European city or a hiking adventure in the mountains, I enjoy
+making lasting memories through travel.
