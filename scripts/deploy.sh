@@ -5,7 +5,6 @@ ENVIRONMENT=${1:-dev}          # dev | test | prod
 PROJECT_NAME=${2:-twin}
 
 echo "🚀 Deploying ${PROJECT_NAME} to ${ENVIRONMENT}..."
-
 # 1. Build Lambda package
 cd "$(dirname "$0")/.."        # project root
 echo "📦 Building Lambda package..."
@@ -13,7 +12,14 @@ echo "📦 Building Lambda package..."
 
 # 2. Terraform workspace & apply
 cd terraform
-terraform init -input=false
+AWS_ACCOUNT_ID=$(aws sts get-caller-identity --query Account --output text)
+AWS_REGION=${DEFAULT_AWS_REGION:-eu-north-1}
+terraform init -input=false \
+  -backend-config="bucket=${PROJECT_NAME}-terraform-state-${AWS_ACCOUNT_ID}" \
+  -backend-config="key=${ENVIRONMENT}/terraform.tfstate" \
+  -backend-config="region=${AWS_REGION}" \
+  -backend-config="dynamodb_table=${PROJECT_NAME}-terraform-locks" \
+  -backend-config="encrypt=true"
 
 if ! terraform workspace list | grep -q "$ENVIRONMENT"; then
   terraform workspace new "$ENVIRONMENT"
@@ -25,6 +31,7 @@ fi
 if [ "$ENVIRONMENT" = "prod" ]; then
   TF_APPLY_CMD=(terraform apply -var-file=prod.tfvars -var="project_name=$PROJECT_NAME" -var="environment=$ENVIRONMENT" -auto-approve)
 else
+  # Use terraform.tfvars for other environments
   TF_APPLY_CMD=(terraform apply -var="project_name=$PROJECT_NAME" -var="environment=$ENVIRONMENT" -auto-approve)
 fi
 

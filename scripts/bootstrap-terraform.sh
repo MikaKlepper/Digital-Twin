@@ -1,7 +1,8 @@
 #!/bin/bash
-set -e
+set -e 
 
 PROJECT_NAME=${1:-twin}
+AWS_REGION=${2:-eu-north-1} 
 
 echo "🚀 Bootstrapping Terraform backend for project '${PROJECT_NAME}'..."
 
@@ -16,6 +17,7 @@ terraform init
 echo "📦 Creating Terraform backend resources..."
 terraform apply \
   -var="project_name=${PROJECT_NAME}" \
+  -var="aws_region=${AWS_REGION}" \
   -auto-approve
 
 echo ""

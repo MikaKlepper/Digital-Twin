@@ -1,14 +1,14 @@
 # This file creates the S3 bucket and DynamoDB table for Terraform state
-# Run this once per AWS account, then remove the file
+# Run this once per AWS account
 
 resource "aws_s3_bucket" "terraform_state" {
   bucket = local.terraform_state_bucket_name
-  tags = local.common_tags
+  tags   = local.common_tags
 }
 
 resource "aws_s3_bucket_versioning" "terraform_state" {
   bucket = aws_s3_bucket.terraform_state.id
-  
+
   versioning_configuration {
     status = "Enabled"
   }
